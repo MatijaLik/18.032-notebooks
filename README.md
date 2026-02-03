@@ -1,6 +1,17 @@
 # 18.032 Interactive Notebooks
 
-This repository contains interactive Jupyter notebooks that serve as supplementary material for **18.032**, MIT's class in differential equations.
+This repository contains interactive Jupyter notebooks that serve as supplementary material for **18.032**, MIT's class in differential equations. They are designed to help you explore concepts interactively and deepen your understanding of the course material. New notebooks will be added roughly on a bi-weekly basis throughout the semester.
+
+If you spot errors or have suggestions for improvements, please contact the class UA, Matija Likar, whose email can be found in the course syllabus.
+
+## Table of Contents
+- [Online Access](#online-access)
+- [Notebook Index](#notebook-index)
+- [Feedback](#feedback)
+- [Local Setup](#local-setup)
+  - [Prerequisites](#prerequisites)
+  - [Installation Steps](#installation-steps)
+  - [Troubleshooting](#troubleshooting)
 
 ## Online Access
 
@@ -8,7 +19,14 @@ You can access the notebooks directly in your browser using Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatijaLik/18.032-notebooks/main?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2F00-index.ipynb)
 
-Click the badge above to launch an interactive Jupyter environment with all notebooks ready to use.
+Click the badge above to launch an interactive Jupyter environment with all notebooks ready to use. 
+
+**Important:** You should launch the Binder environment anew, using the badge above, each time new notebooks are added to the repository. Also, you should download your work to your local machine before leaving the Binder environment if you want to keep it. Alternatively, you can use the [local setup instructions](#local-setup) below to run the notebooks locally on your computer.
+
+## Notebook Index
+| Index | Notebook | Date |
+|-------|----------|------|
+| 1 | [Logistic map](./notebooks/01-logistic-map.ipynb) | 2026-01-XX |
 
 ## Local Setup
 
