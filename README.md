@@ -6,7 +6,7 @@ This repository contains interactive Jupyter notebooks that serve as supplementa
 
 You can access the notebooks directly in your browser using Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatijaLik/18.032-notebooks/master?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2F00-index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatijaLik/18.032-notebooks/main?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2F00-index.ipynb)
 
 Click the badge above to launch an interactive Jupyter environment with all notebooks ready to use.
 
@@ -16,7 +16,8 @@ To run and edit the notebooks locally on your computer, follow these steps:
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11 or above (Python 3.11 recommended)
+  - Note: The Binder environment uses Python 3.11 (specified in `runtime.txt`). For best compatibility, use Python 3.11 or higher locally.
 - pip (Python package installer)
 
 
@@ -28,10 +29,20 @@ To run and edit the notebooks locally on your computer, follow these steps:
    cd 18.032-notebooks
    ```
 
-2. **Create a virtual environment :**
+2. **Create a virtual environment:**
    ```bash
    python -m venv venv
    ```
+   
+   If you have multiple Python versions and want to use Python 3.11 specifically:
+   - On Linux/Mac:
+     ```bash
+     python3.11 -m venv venv
+     ```
+   - On Windows:
+     ```bash
+     py -3.11 -m venv venv
+     ```
 
 3. **Activate the virtual environment:**
    - On Linux/Mac:
@@ -68,7 +79,19 @@ To run and edit the notebooks locally on your computer, follow these steps:
   pip install jupyterlab
   ```
 
-- Make sure you're using Python 3.8 or higher. Check your Python version:
+- Make sure you're using Python 3.11 or above (Python 3.11 recommended to match the Binder environment). Check your Python version:
   ```bash
   python --version
   ```
+  
+  If you need to install Python 3.11 or a newer version:
+  - **Linux:** 
+    ```bash
+    sudo apt-get update
+    sudo apt-get install python3.11 python3.11-venv
+    ```
+  - **macOS:** 
+    ```bash
+    brew install python@3.11
+    ```
+  - **Windows:** Download Python 3.11 or newer from [python.org](https://www.python.org/downloads/)
