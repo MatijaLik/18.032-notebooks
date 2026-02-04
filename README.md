@@ -26,7 +26,7 @@ Click the badge above to launch an interactive Jupyter environment with all note
 ## Notebook Index
 | Index | Notebook | Date |
 |-------|----------|------|
-| 1 | [Logistic map](./notebooks/01-logistic-map.ipynb) | 2026-01-XX |
+| 1 | [Logistic map](./notebooks/01-logistic-map.ipynb) | 2026-02-04 |
 
 ## Local Setup
 
